@@ -4,7 +4,7 @@ module.exports = function (ctx) {
   return {
     // app plugins (/src/plugins)
     plugins: [
-      'axios'
+      'axios',
     ],
     css: [
       'app.styl'
@@ -51,6 +51,18 @@ module.exports = function (ctx) {
         'QItemSide',
         'QRadio',
         'QInput',
+        'QSelect',
+        'QBtnDropdown',
+        'QUploader',
+        'QBtnGroup',
+        'QTable',
+        'QTh',
+        'QTr',
+        'QTd',
+        'QCard',
+        'QCardActions',
+        
+
         
       ],
       directives: [
@@ -58,7 +70,12 @@ module.exports = function (ctx) {
       ],
       // Quasar plugins
       plugins: [
-        'Notify'
+        'Notify',
+        'Dialog',
+        'SessionStorage',
+        'LocalStorage'
+
+        
       ]
       // iconSet: ctx.theme.mat ? 'material-icons' : 'ionicons'
       // i18n: 'de' // Quasar language
