@@ -21,8 +21,8 @@
           
         </q-toolbar-title>
 
-        <q-btn glossy rounded="2px" color="primary" label="Criar conta" to="/users/Create"/>
-        <q-btn glossy rounded="2px" color="primary" label="Login" to="/users/Login"/>
+        <q-btn glossy rounded="2px" color="primary" label="Sair"/>
+        
         
       </q-toolbar>
     </q-layout-header>
